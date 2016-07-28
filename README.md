@@ -3,7 +3,7 @@ HookServe
 
 http://godoc.org/github.com/phayes/hookserve/hookserve
 
-HookServe is a small golang utility for receiving github webhooks. It's easy to use, flexible, and provides strong security though GitHub's HMAC webhook verification scheme.
+HookServe is a small golang utility for receiving github webhooks. It's easy to use, flexible, and provides strong security through GitHub's HMAC webhook verification scheme.
 
 ```go
 server := hookserve.NewServer()
